@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Montserrat-Light.otf">
+            <string>Montserrat-Light</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="WUCarInfoCell" id="hXo-Xw-Xc7" customClass="WUCarInfoCell" customModule="Wunder" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="140"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="hXo-Xw-Xc7" id="Bsb-XA-cVl">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="139.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UMb-i9-kT2">
+                        <rect key="frame" x="16" y="49" width="60" height="22"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="60" id="Yo1-Wd-RTu"/>
+                            <constraint firstAttribute="height" constant="22" id="vkz-55-nPr"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Courier-Bold" family="Courier" pointSize="17"/>
+                        <color key="textColor" red="0.21176470588235294" green="0.21176470588235294" blue="0.21176470588235294" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LdB-3O-ffs">
+                        <rect key="frame" x="103" y="50" width="270" height="19"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <fontDescription key="fontDescription" name="Montserrat-Light" family="Montserrat" pointSize="16"/>
+                        <color key="textColor" red="0.21176470589999999" green="0.21176470589999999" blue="0.21176470589999999" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Address:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dVk-bc-Nf6">
+                        <rect key="frame" x="16" y="69" width="84" height="22"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="22" id="Ox7-6b-E78"/>
+                            <constraint firstAttribute="width" constant="84" id="RaB-79-9JL"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Courier-Bold" family="Courier" pointSize="17"/>
+                        <color key="textColor" red="0.21176470589999999" green="0.21176470589999999" blue="0.21176470589999999" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7c8-o5-OJz">
+                        <rect key="frame" x="103" y="70" width="270" height="19"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="19" id="LPU-al-bem"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Montserrat-Light" family="Montserrat" pointSize="16"/>
+                        <color key="textColor" red="0.21176470589999999" green="0.21176470589999999" blue="0.21176470589999999" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="VIN:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="K0b-om-32p">
+                        <rect key="frame" x="16" y="89" width="74" height="22"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="22" id="CX3-1M-mtc"/>
+                            <constraint firstAttribute="width" constant="74" id="obU-dw-eO5"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Courier-Bold" family="Courier" pointSize="17"/>
+                        <color key="textColor" red="0.21176470589999999" green="0.21176470589999999" blue="0.21176470589999999" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OsT-gM-7iN">
+                        <rect key="frame" x="103" y="90" width="270" height="19"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <fontDescription key="fontDescription" name="Montserrat-Light" family="Montserrat" pointSize="16"/>
+                        <color key="textColor" red="0.21176470589999999" green="0.21176470589999999" blue="0.21176470589999999" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Fuel:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jej-9A-oVn">
+                        <rect key="frame" x="16" y="109" width="74" height="22"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="22" id="RXZ-ci-HVF"/>
+                            <constraint firstAttribute="width" constant="74" id="jZJ-fX-ptW"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Courier-Bold" family="Courier" pointSize="17"/>
+                        <color key="textColor" red="0.21176470589999999" green="0.21176470589999999" blue="0.21176470589999999" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ge9-7z-TPe">
+                        <rect key="frame" x="103" y="110" width="270" height="19"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <fontDescription key="fontDescription" name="Montserrat-Light" family="Montserrat" pointSize="16"/>
+                        <color key="textColor" red="0.21176470589999999" green="0.21176470589999999" blue="0.21176470589999999" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="CellCar" translatesAutoresizingMaskIntoConstraints="NO" id="hYs-ug-NZz">
+                        <rect key="frame" x="313" y="2" width="51" height="51"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VT1-6u-2Io">
+                        <rect key="frame" x="16" y="7" width="52" height="17"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="17" id="3OU-DX-gaD"/>
+                            <constraint firstAttribute="width" constant="52" id="a05-TZ-QZn"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Courier-Bold" family="Courier" pointSize="17"/>
+                        <color key="textColor" red="0.21176470589999999" green="0.21176470589999999" blue="0.21176470589999999" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="Testing here" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nXV-iS-Nb9">
+                        <rect key="frame" x="103" y="6" width="192" height="19"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <fontDescription key="fontDescription" name="Montserrat-Light" family="Montserrat" pointSize="16"/>
+                        <color key="textColor" red="0.21176470589999999" green="0.21176470589999999" blue="0.21176470589999999" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QZl-gN-DlB">
+                        <rect key="frame" x="16" y="29" width="51.5" height="17"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="51.5" id="1VC-eh-eqq"/>
+                            <constraint firstAttribute="height" constant="17" id="GWt-FN-rpF"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Courier-Bold" family="Courier" pointSize="17"/>
+                        <color key="textColor" red="0.21176470589999999" green="0.21176470589999999" blue="0.21176470589999999" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Testing here" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pAJ-m2-qHr">
+                        <rect key="frame" x="103" y="28" width="86.5" height="19"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <fontDescription key="fontDescription" name="Montserrat-Light" family="Montserrat" pointSize="16"/>
+                        <color key="textColor" red="0.21176470589999999" green="0.21176470589999999" blue="0.21176470589999999" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                <constraints>
+                    <constraint firstItem="OsT-gM-7iN" firstAttribute="leading" secondItem="K0b-om-32p" secondAttribute="trailing" constant="13" id="3Pt-Q3-68b"/>
+                    <constraint firstItem="7c8-o5-OJz" firstAttribute="top" secondItem="hYs-ug-NZz" secondAttribute="bottom" constant="17" id="7CH-Pi-moD"/>
+                    <constraint firstItem="hYs-ug-NZz" firstAttribute="top" secondItem="Bsb-XA-cVl" secondAttribute="top" constant="2" id="CLc-08-h9n"/>
+                    <constraint firstItem="nXV-iS-Nb9" firstAttribute="top" secondItem="Bsb-XA-cVl" secondAttribute="top" constant="6" id="CrB-Ur-ye5"/>
+                    <constraint firstAttribute="trailing" secondItem="LdB-3O-ffs" secondAttribute="trailing" constant="2" id="DLs-eM-fUX"/>
+                    <constraint firstItem="LdB-3O-ffs" firstAttribute="top" secondItem="pAJ-m2-qHr" secondAttribute="bottom" constant="3" id="EUq-0R-MFp"/>
+                    <constraint firstItem="VT1-6u-2Io" firstAttribute="top" secondItem="Bsb-XA-cVl" secondAttribute="topMargin" constant="-4" id="EgS-HG-eLe"/>
+                    <constraint firstItem="pAJ-m2-qHr" firstAttribute="leading" secondItem="QZl-gN-DlB" secondAttribute="trailing" constant="35.5" id="EmE-ff-Ht9"/>
+                    <constraint firstItem="K0b-om-32p" firstAttribute="leading" secondItem="Bsb-XA-cVl" secondAttribute="leadingMargin" id="FWd-2x-Elq"/>
+                    <constraint firstItem="OsT-gM-7iN" firstAttribute="top" secondItem="7c8-o5-OJz" secondAttribute="bottom" constant="1" id="InY-RM-COK"/>
+                    <constraint firstItem="QZl-gN-DlB" firstAttribute="top" secondItem="VT1-6u-2Io" secondAttribute="bottom" constant="5" id="KFJ-cm-lYT"/>
+                    <constraint firstItem="hYs-ug-NZz" firstAttribute="leading" secondItem="nXV-iS-Nb9" secondAttribute="trailing" constant="18" id="KTo-LW-rk2"/>
+                    <constraint firstItem="VT1-6u-2Io" firstAttribute="leading" secondItem="Bsb-XA-cVl" secondAttribute="leadingMargin" id="Kdy-Tq-6Ie"/>
+                    <constraint firstItem="jej-9A-oVn" firstAttribute="leading" secondItem="Bsb-XA-cVl" secondAttribute="leadingMargin" id="LvA-h1-zr1"/>
+                    <constraint firstItem="dVk-bc-Nf6" firstAttribute="leading" secondItem="Bsb-XA-cVl" secondAttribute="leadingMargin" id="MDe-JW-Am9"/>
+                    <constraint firstItem="K0b-om-32p" firstAttribute="top" secondItem="UMb-i9-kT2" secondAttribute="bottom" constant="18" id="UYw-NM-bO7"/>
+                    <constraint firstItem="7c8-o5-OJz" firstAttribute="top" secondItem="LdB-3O-ffs" secondAttribute="bottom" constant="1" id="Vai-0q-DHm"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="K0b-om-32p" secondAttribute="bottom" constant="18" id="WPW-tt-38V"/>
+                    <constraint firstAttribute="trailing" secondItem="OsT-gM-7iN" secondAttribute="trailing" constant="2" id="WmQ-8X-3B9"/>
+                    <constraint firstItem="LdB-3O-ffs" firstAttribute="leading" secondItem="UMb-i9-kT2" secondAttribute="trailing" constant="27" id="YFe-a8-29W"/>
+                    <constraint firstItem="jej-9A-oVn" firstAttribute="top" secondItem="dVk-bc-Nf6" secondAttribute="bottom" constant="18" id="YhX-zG-orn"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="jej-9A-oVn" secondAttribute="bottom" constant="-2" id="br4-Ja-xCx"/>
+                    <constraint firstItem="nXV-iS-Nb9" firstAttribute="leading" secondItem="VT1-6u-2Io" secondAttribute="trailing" constant="35" id="bxT-8n-4Eh"/>
+                    <constraint firstItem="dVk-bc-Nf6" firstAttribute="top" secondItem="QZl-gN-DlB" secondAttribute="bottom" constant="23" id="c6Y-WL-cjZ"/>
+                    <constraint firstAttribute="trailing" secondItem="7c8-o5-OJz" secondAttribute="trailing" constant="2" id="dWg-bs-4P9"/>
+                    <constraint firstItem="QZl-gN-DlB" firstAttribute="leading" secondItem="Bsb-XA-cVl" secondAttribute="leadingMargin" id="f7C-rf-85Y"/>
+                    <constraint firstAttribute="trailing" secondItem="Ge9-7z-TPe" secondAttribute="trailing" constant="2" id="fZN-Wl-IYF"/>
+                    <constraint firstItem="7c8-o5-OJz" firstAttribute="leading" secondItem="dVk-bc-Nf6" secondAttribute="trailing" constant="3" id="gRd-I0-hlm"/>
+                    <constraint firstAttribute="bottom" secondItem="Ge9-7z-TPe" secondAttribute="bottom" constant="10.5" id="hPb-NG-dNv"/>
+                    <constraint firstItem="UMb-i9-kT2" firstAttribute="top" secondItem="QZl-gN-DlB" secondAttribute="bottom" constant="3" id="k5b-eI-Ck4"/>
+                    <constraint firstItem="UMb-i9-kT2" firstAttribute="leading" secondItem="Bsb-XA-cVl" secondAttribute="leadingMargin" id="mvA-ua-Kfh"/>
+                    <constraint firstItem="Ge9-7z-TPe" firstAttribute="leading" secondItem="jej-9A-oVn" secondAttribute="trailing" constant="13" id="vLb-Pe-zhG"/>
+                    <constraint firstItem="pAJ-m2-qHr" firstAttribute="top" secondItem="nXV-iS-Nb9" secondAttribute="bottom" constant="3" id="vjR-AC-8Lm"/>
+                    <constraint firstAttribute="trailing" secondItem="hYs-ug-NZz" secondAttribute="trailing" constant="11" id="xid-wp-ASq"/>
+                    <constraint firstItem="Ge9-7z-TPe" firstAttribute="top" secondItem="OsT-gM-7iN" secondAttribute="bottom" constant="1" id="xqj-5K-S78"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <connections>
+                <outlet property="addressLabel" destination="7c8-o5-OJz" id="Eer-Pt-yUH"/>
+                <outlet property="carNameLabel" destination="LdB-3O-ffs" id="jkO-yS-6cA"/>
+                <outlet property="engineType" destination="OsT-gM-7iN" id="KNj-A2-SWM"/>
+                <outlet property="fuelLabel" destination="Ge9-7z-TPe" id="nRH-YC-Vhc"/>
+                <outlet property="vinLabel" destination="OsT-gM-7iN" id="53C-oo-F36"/>
+            </connections>
+            <point key="canvasLocation" x="95.5" y="60"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="CellCar" width="51" height="51"/>
+    </resources>
+</document>

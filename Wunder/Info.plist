@@ -41,5 +41,9 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>To Show the car informations</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>To Show the car informations</string>
 </dict>
 </plist>

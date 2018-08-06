@@ -7,12 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9245440C21175B9A004BBD15 /* WUAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9245440021175B99004BBD15 /* WUAnnotation.swift */; };
+		9245440D21175B9A004BBD15 /* WUAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9245440121175B99004BBD15 /* WUAnnotationView.swift */; };
+		9245440E21175B9A004BBD15 /* WUMapPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9245440321175B99004BBD15 /* WUMapPresenter.swift */; };
+		9245440F21175B9A004BBD15 /* WUMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9245440521175B99004BBD15 /* WUMapViewController.swift */; };
+		9245441021175B9A004BBD15 /* WUMapProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9245440721175B99004BBD15 /* WUMapProtocols.swift */; };
+		9245441121175B9A004BBD15 /* WUMapInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9245440921175B99004BBD15 /* WUMapInteractor.swift */; };
+		9245441221175B9A004BBD15 /* WUMapRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9245440B21175B99004BBD15 /* WUMapRouter.swift */; };
 		92A81818211349F2007A09F9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A81817211349F2007A09F9 /* AppDelegate.swift */; };
-		92A8181A211349F2007A09F9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A81819211349F2007A09F9 /* ViewController.swift */; };
 		92A8181D211349F2007A09F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92A8181B211349F2007A09F9 /* Main.storyboard */; };
 		92A8181F211349F5007A09F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92A8181E211349F5007A09F9 /* Assets.xcassets */; };
 		92A81822211349F5007A09F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92A81820211349F5007A09F9 /* LaunchScreen.storyboard */; };
 		92A8182D211349F5007A09F9 /* WunderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8182C211349F5007A09F9 /* WunderTests.swift */; };
+		92ED07E72116FCBC00ADA087 /* WUStoryBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92ED07E62116FCBC00ADA087 /* WUStoryBoard.swift */; };
+		92F290522116F39900D4D7B6 /* WUJSONParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92F290442116F39800D4D7B6 /* WUJSONParser.swift */; };
+		92F290532116F39900D4D7B6 /* WUHomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92F290462116F39800D4D7B6 /* WUHomePresenter.swift */; };
+		92F290542116F39900D4D7B6 /* WUCarInfoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 92F290482116F39800D4D7B6 /* WUCarInfoCell.xib */; };
+		92F290552116F39900D4D7B6 /* WUCarInfoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92F290492116F39800D4D7B6 /* WUCarInfoCell.swift */; };
+		92F290562116F39900D4D7B6 /* WUHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92F2904B2116F39800D4D7B6 /* WUHomeViewController.swift */; };
+		92F290572116F39900D4D7B6 /* WUSHomeProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92F2904D2116F39800D4D7B6 /* WUSHomeProtocols.swift */; };
+		92F290582116F39900D4D7B6 /* WUHomeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92F2904F2116F39800D4D7B6 /* WUHomeInteractor.swift */; };
+		92F290592116F39900D4D7B6 /* WUHomeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92F290512116F39800D4D7B6 /* WUHomeRouter.swift */; };
+		92F2905D2116F3C700D4D7B6 /* WUAlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92F2905B2116F3C600D4D7B6 /* WUAlertViewController.swift */; };
+		92F2905E2116F3C700D4D7B6 /* WUTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92F2905C2116F3C600D4D7B6 /* WUTableView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,9 +43,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9245440021175B99004BBD15 /* WUAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WUAnnotation.swift; sourceTree = "<group>"; };
+		9245440121175B99004BBD15 /* WUAnnotationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WUAnnotationView.swift; sourceTree = "<group>"; };
+		9245440321175B99004BBD15 /* WUMapPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WUMapPresenter.swift; sourceTree = "<group>"; };
+		9245440521175B99004BBD15 /* WUMapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WUMapViewController.swift; sourceTree = "<group>"; };
+		9245440721175B99004BBD15 /* WUMapProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WUMapProtocols.swift; sourceTree = "<group>"; };
+		9245440921175B99004BBD15 /* WUMapInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WUMapInteractor.swift; sourceTree = "<group>"; };
+		9245440B21175B99004BBD15 /* WUMapRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WUMapRouter.swift; sourceTree = "<group>"; };
 		92A81814211349F2007A09F9 /* Wunder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wunder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		92A81817211349F2007A09F9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		92A81819211349F2007A09F9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		92A8181C211349F2007A09F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		92A8181E211349F5007A09F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		92A81821211349F5007A09F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -36,6 +59,17 @@
 		92A81828211349F5007A09F9 /* WunderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WunderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		92A8182C211349F5007A09F9 /* WunderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WunderTests.swift; sourceTree = "<group>"; };
 		92A8182E211349F5007A09F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92ED07E62116FCBC00ADA087 /* WUStoryBoard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WUStoryBoard.swift; sourceTree = "<group>"; };
+		92F290442116F39800D4D7B6 /* WUJSONParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WUJSONParser.swift; sourceTree = "<group>"; };
+		92F290462116F39800D4D7B6 /* WUHomePresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WUHomePresenter.swift; sourceTree = "<group>"; };
+		92F290482116F39800D4D7B6 /* WUCarInfoCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WUCarInfoCell.xib; sourceTree = "<group>"; };
+		92F290492116F39800D4D7B6 /* WUCarInfoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WUCarInfoCell.swift; sourceTree = "<group>"; };
+		92F2904B2116F39800D4D7B6 /* WUHomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WUHomeViewController.swift; sourceTree = "<group>"; };
+		92F2904D2116F39800D4D7B6 /* WUSHomeProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WUSHomeProtocols.swift; sourceTree = "<group>"; };
+		92F2904F2116F39800D4D7B6 /* WUHomeInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WUHomeInteractor.swift; sourceTree = "<group>"; };
+		92F290512116F39800D4D7B6 /* WUHomeRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WUHomeRouter.swift; sourceTree = "<group>"; };
+		92F2905B2116F3C600D4D7B6 /* WUAlertViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WUAlertViewController.swift; sourceTree = "<group>"; };
+		92F2905C2116F3C600D4D7B6 /* WUTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WUTableView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +90,68 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		924543FE21175B99004BBD15 /* MapView VIPER */ = {
+			isa = PBXGroup;
+			children = (
+				924543FF21175B99004BBD15 /* Entity */,
+				9245440221175B99004BBD15 /* Presenter */,
+				9245440421175B99004BBD15 /* View */,
+				9245440621175B99004BBD15 /* Protocols */,
+				9245440821175B99004BBD15 /* Interactor */,
+				9245440A21175B99004BBD15 /* Router */,
+			);
+			path = "MapView VIPER";
+			sourceTree = "<group>";
+		};
+		924543FF21175B99004BBD15 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				9245440021175B99004BBD15 /* WUAnnotation.swift */,
+				9245440121175B99004BBD15 /* WUAnnotationView.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		9245440221175B99004BBD15 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				9245440321175B99004BBD15 /* WUMapPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		9245440421175B99004BBD15 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9245440521175B99004BBD15 /* WUMapViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9245440621175B99004BBD15 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				9245440721175B99004BBD15 /* WUMapProtocols.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		9245440821175B99004BBD15 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				9245440921175B99004BBD15 /* WUMapInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		9245440A21175B99004BBD15 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				9245440B21175B99004BBD15 /* WUMapRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
 		92A8180B211349F1007A09F9 = {
 			isa = PBXGroup;
 			children = (
@@ -78,7 +174,9 @@
 			isa = PBXGroup;
 			children = (
 				92A81817211349F2007A09F9 /* AppDelegate.swift */,
-				92A81819211349F2007A09F9 /* ViewController.swift */,
+				92F2905A2116F3C600D4D7B6 /* Helper */,
+				92F290422116F39800D4D7B6 /* HomeView VIPER */,
+				924543FE21175B99004BBD15 /* MapView VIPER */,
 				92A8181B211349F2007A09F9 /* Main.storyboard */,
 				92A8181E211349F5007A09F9 /* Assets.xcassets */,
 				92A81820211349F5007A09F9 /* LaunchScreen.storyboard */,
@@ -94,6 +192,87 @@
 				92A8182E211349F5007A09F9 /* Info.plist */,
 			);
 			path = WunderTests;
+			sourceTree = "<group>";
+		};
+		92F290422116F39800D4D7B6 /* HomeView VIPER */ = {
+			isa = PBXGroup;
+			children = (
+				92F290472116F39800D4D7B6 /* Cell */,
+				92F2904C2116F39800D4D7B6 /* Protocols */,
+				92F2904A2116F39800D4D7B6 /* View */,
+				92F2904E2116F39800D4D7B6 /* Interactor */,
+				92F290452116F39800D4D7B6 /* Presenter */,
+				92F290432116F39800D4D7B6 /* Entity */,
+				92F290502116F39800D4D7B6 /* Router */,
+			);
+			path = "HomeView VIPER";
+			sourceTree = "<group>";
+		};
+		92F290432116F39800D4D7B6 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				92F290442116F39800D4D7B6 /* WUJSONParser.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		92F290452116F39800D4D7B6 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				92F290462116F39800D4D7B6 /* WUHomePresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		92F290472116F39800D4D7B6 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				92F290482116F39800D4D7B6 /* WUCarInfoCell.xib */,
+				92F290492116F39800D4D7B6 /* WUCarInfoCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		92F2904A2116F39800D4D7B6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				92F2904B2116F39800D4D7B6 /* WUHomeViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		92F2904C2116F39800D4D7B6 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				92F2904D2116F39800D4D7B6 /* WUSHomeProtocols.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		92F2904E2116F39800D4D7B6 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				92F2904F2116F39800D4D7B6 /* WUHomeInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		92F290502116F39800D4D7B6 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				92F290512116F39800D4D7B6 /* WUHomeRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		92F2905A2116F3C600D4D7B6 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				92F2905B2116F3C600D4D7B6 /* WUAlertViewController.swift */,
+				92F2905C2116F3C600D4D7B6 /* WUTableView.swift */,
+				92ED07E62116FCBC00ADA087 /* WUStoryBoard.swift */,
+			);
+			path = Helper;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -177,6 +356,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92F290542116F39900D4D7B6 /* WUCarInfoCell.xib in Resources */,
 				92A81822211349F5007A09F9 /* LaunchScreen.storyboard in Resources */,
 				92A8181F211349F5007A09F9 /* Assets.xcassets in Resources */,
 				92A8181D211349F2007A09F9 /* Main.storyboard in Resources */,
@@ -197,8 +377,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				92A8181A211349F2007A09F9 /* ViewController.swift in Sources */,
+				92ED07E72116FCBC00ADA087 /* WUStoryBoard.swift in Sources */,
+				9245441221175B9A004BBD15 /* WUMapRouter.swift in Sources */,
+				92F2905E2116F3C700D4D7B6 /* WUTableView.swift in Sources */,
+				92F290522116F39900D4D7B6 /* WUJSONParser.swift in Sources */,
+				92F290582116F39900D4D7B6 /* WUHomeInteractor.swift in Sources */,
+				92F290572116F39900D4D7B6 /* WUSHomeProtocols.swift in Sources */,
+				92F290562116F39900D4D7B6 /* WUHomeViewController.swift in Sources */,
+				92F290552116F39900D4D7B6 /* WUCarInfoCell.swift in Sources */,
+				92F290532116F39900D4D7B6 /* WUHomePresenter.swift in Sources */,
+				9245440F21175B9A004BBD15 /* WUMapViewController.swift in Sources */,
+				9245440C21175B9A004BBD15 /* WUAnnotation.swift in Sources */,
 				92A81818211349F2007A09F9 /* AppDelegate.swift in Sources */,
+				9245440D21175B9A004BBD15 /* WUAnnotationView.swift in Sources */,
+				9245440E21175B9A004BBD15 /* WUMapPresenter.swift in Sources */,
+				9245441121175B9A004BBD15 /* WUMapInteractor.swift in Sources */,
+				92F290592116F39900D4D7B6 /* WUHomeRouter.swift in Sources */,
+				9245441021175B9A004BBD15 /* WUMapProtocols.swift in Sources */,
+				92F2905D2116F3C700D4D7B6 /* WUAlertViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

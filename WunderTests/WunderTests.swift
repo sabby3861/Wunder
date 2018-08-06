@@ -24,6 +24,18 @@ class WunderTests: XCTestCase {
     func testExample() {
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
+      
+      let parser = WUJSONParser()
+      let service = WUCarInfo()
+      parser.request(resource: service.carInfoService) { result in
+        switch result {
+        case .success(let data):
+          XCTAssertFalse(data.placemarks.isEmpty)
+        case .failure(let missing):
+          let error = missing.localizedDescription
+          XCTFail(error)
+        }
+      }
     }
     
     func testPerformanceExample() {
