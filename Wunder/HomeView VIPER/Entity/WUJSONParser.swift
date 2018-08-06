@@ -60,8 +60,6 @@ extension JSONParser {
     // create the url request
     self.request = URLRequest(url: url.description)
     self.parse = { data in
-      let json = try JSONSerialization.jsonObject(with: data, options: [])
-      print("Json is \(json)")
       return try parseJSON(data)
     }
   }
@@ -93,15 +91,6 @@ struct WUResponse : Codable {
   enum CodingKeys: String, CodingKey {
     case placemarks = "placemarks"
   }
-  
-  /*
-  static func decodeData(responseData: Data?)  {
-    guard let data = responseData, let response = try? JSONDecoder().decode(WUResponse.self, from: data) else {
-      //completionHandler(GooglePlacesResponse(results:[]))
-      //throw APIError.message("Error")
-      return nil
-    }
-  }*/
 }
 
 
