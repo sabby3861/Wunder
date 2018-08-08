@@ -12,16 +12,16 @@ import Foundation
 /// View Protocols
 protocol WUHomeViewProtocol: class
 {
-  var presenter: WUHomePresenterProtocol? { get set }
+  var presenter: WUHomePresenterProtocol? { get }
   func showCarInformation(with placeMarks: [WUPlaceMark])
 }
 
 /// View -> Interactor and View -> Router Communication Protocols
 protocol WUHomePresenterProtocol: class
 {
-  var view: WUHomeViewProtocol? { get set }
-  var router: WUHomeRouterProtocol? { get set }
-  var interactor: WUHomeInteractorProtocol?{get set}
+  var view: WUHomeViewProtocol? { get }
+  var router: WUHomeRouterProtocol? { get }
+  var interactor: WUHomeInteractorProtocol?{get}
   func fetchCarInformation()
 }
 
@@ -29,7 +29,7 @@ protocol WUHomePresenterProtocol: class
 /// Interactor -> Presenter Communication Protocols
 protocol WUHomeInteractorProtocol: class
 {
-  var output: WUHomeOutputProtocol? { get set }
+  var output: WUHomeOutputProtocol? { get }
   func decodeJSONInformation()
 }
 
