@@ -23,6 +23,7 @@ protocol WUHomePresenterProtocol: class
   var router: WUHomeRouterProtocol? { get }
   var interactor: WUHomeInteractorProtocol?{get}
   func fetchCarInformation()
+  func showMapViewController(placeMarks: [WUPlaceMark])
 }
 
 
@@ -41,5 +42,7 @@ protocol WUHomeOutputProtocol: class
 /// Router Protocols and assembling Module
 protocol WUHomeRouterProtocol: class
 {
+  var viewController: WUHomeViewController?{get}
   static func assembleModule(view: WUHomeViewController)
+  func pushToMapView(placeMarks: [WUPlaceMark])
 }

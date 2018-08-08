@@ -41,8 +41,7 @@ class WUHomeViewController: UIViewController {
   ///
   /// - Parameter sender: navigation bar button object
   @IBAction func mapViewButtonClicked(_ sender: Any) {
-    let mapViewController = WUMapRouter.assembleModule(placeMarks: placeMarks)
-    self.navigationController?.pushViewController(mapViewController, animated: true)
+    self.presenter?.showMapViewController(placeMarks: placeMarks)
   }
   
   func showActivityIndicatory(uiView: UIView) {

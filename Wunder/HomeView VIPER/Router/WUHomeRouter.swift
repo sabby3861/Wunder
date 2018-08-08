@@ -9,6 +9,7 @@
 import Foundation
 
 class WUHomeRouter: WUHomeRouterProtocol {
+  var viewController: WUHomeViewController?
   static func assembleModule(view: WUHomeViewController){
     let presenter = WUHomePresenter()
     let router = WUHomeRouter()
@@ -19,6 +20,10 @@ class WUHomeRouter: WUHomeRouterProtocol {
     
     interactor.output = presenter
     view.presenter = presenter
-    //router.viewController = view
+    router.viewController = view
+  }
+  func pushToMapView(placeMarks: [WUPlaceMark]){
+    let mapViewController = WUMapRouter.assembleModule(placeMarks: placeMarks)
+    viewController?.navigationController?.pushViewController(mapViewController, animated: true)
   }
 }

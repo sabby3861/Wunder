@@ -15,7 +15,9 @@ class WUHomePresenter: WUHomePresenterProtocol {
   func fetchCarInformation(){
     interactor?.decodeJSONInformation()
   }
-  
+  func showMapViewController(placeMarks: [WUPlaceMark]){
+    router?.pushToMapView(placeMarks: placeMarks)
+  }
 }
 
 
